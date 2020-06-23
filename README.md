@@ -3,7 +3,7 @@ Classifications of clients in an internet shopping mall are performed via Kmeans
 The purpose is to gather clients in groups via several criteria i.e. features from 10 different dataframes and some feature engineered variables to implement a target discount strategy to each cluster of clients.
 The stability of the clusters are checked by introducting fresh new clients without any purchase history.
 
-In the first notebook dataframes are satistically analysed and cleaned via various functions I developed to enable a fast data treatment.
+In the first notebook (Nb1_classification) dataframes are satistically analysed and cleaned via various functions I developed to enable a fast data treatment.
 
 Here are some examples. One can observe the frequency of purchase by month, the review score, and the product distributions.
 
@@ -18,7 +18,7 @@ Similarly here is the mean and standard deviation for each product.
 And here one can observe the geolocation of the type of payment.
 ![](images/pic2.png)
 
-Satisfaction (based on different time information and review score) and Frequency_in_month, product_categories are the result of Feature engineering.
+Satisfaction (based on different time information and review score) and Frequency_in_month, product_categories are the result of Feature engineering. Classifications are located in the second notebook (Nb2_classification).
 The first classification is performed based on the features: Satisfaction, price, pcn_Home (home products), pcn_leisure_fashion_n_beauty (products for leisure, fashion and beauty) and Frequency_in_month (purchase frequency in a month).
 The second classification is performed based on the features: Satisfaction, price, geolocation and Frequency_in_month (purchase frequency in a month).
 The optimal number of clusters for the first classification is 4. 
