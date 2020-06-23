@@ -1,7 +1,7 @@
 # Classification of clients
 Classifications of clients in an internet shopping mall are performed via Kmeans++, TNSE, hierarchical classifications. 
 The purpose is to gather clients in groups via several criteria i.e. features from 10 different dataframes and some feature engineered variables to implement a target discount strategy to each cluster of clients.
-The stability of the clusters are checked by introducting fresh new clients without any pourchase history.
+The stability of the clusters are checked by introducting fresh new clients without any purchase history.
 
 In the first notebook dataframes are satistically analysed and cleaned via various functions I developed to enable a fast data treatment.
 
